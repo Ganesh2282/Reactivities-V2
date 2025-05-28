@@ -11,7 +11,7 @@ public class ActivitiesController(AppDbContext context) : BaseApiController
     [HttpGet]
     public async Task<ActionResult<List<Activity>>> GetActivities()
     {
-        // test commit eg werg
+        // test commit eg werg try rt yrty 
         return await context.Activities.ToListAsync();
     }
 
